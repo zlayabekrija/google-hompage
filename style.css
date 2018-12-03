@@ -1,5 +1,5 @@
 header {
-    height: 56px;
+    height: 50px;
     padding: 0 16px;
     display: flex;
     -ms-flex-direction: row;
@@ -28,7 +28,7 @@ aside {
     bottom: 0;
     background-color: blue;
     position: fixed;
-    right:0;    
+    right: 0;
 }
 
 section {
@@ -37,38 +37,88 @@ section {
     background-color: black;
 }
 
+.hamburger {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-.bars{
-    display: inline-block;
-    margin-left: -7px;
-    height: 30px;
+.brand-logo {
+    width: 100px;
+    height: 20px;
 }
-.search{
-    margin: 0 40px;
+
+.brand {
+    float: left;
+    margin-top: 3px;
+    position: relative;
+    width: 200px;
     display: flex;
-    -ms-flex-direction: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -ms-flex: 1 1 0.000000001px;
-    -webkit-flex: 1;
-    flex: 1;
-    flex-basis: 0%;
-    -webkit-flex-basis: 0.000000001px;
-    flex-basis: 0.000000001px;
+    align-items: center;
 }
-.brand-logo{
-    width: 80px;
-    height: 24px;
-    -ms-flex: none;
-    -webkit-flex: none;
-    flex: none;
-}
-.icons-avatar{
+
+.container {
+    width: 70%;
     display: flex;
-    -ms-flex-direction: row;
-    -webkit-flex-direction: row;
-    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    float: right;
+}
+
+.icons-avatar {
+    float: right;
+}
+
+.fas {
+    color: gray;
+    margin: 0 10px 0 5px;
+    padding: 0 10px 0;
+}
+
+.fa-bell,
+.fa-user-circle {
+    font-size: 1.4em;
+}
+
+.search-input {
+    height: 29px;
+    width: 30vw;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 1.4em;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 1.4em;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 1.4em;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 1.4em;
+}
+
+.search-btn {
+    margin-left: -5px;
+    padding: 10px;
+    background: transparent;
+}
+
+.fa-search {
+    font-size: 1.2em;
+}
+
+.container-video {
+    margin: auto;
+    max-width: 1066px;
+    position: relative;
+    background-color: yellow;
 }
