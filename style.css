@@ -21,7 +21,7 @@ header {
 
 .aside {
     width: 37%;
-    height: 120vh;
+    height: 120;
     background-color: #fff;
     float: right;
     z-index: 2;
@@ -109,8 +109,8 @@ header {
 
 .search-btn {
     margin-left: -5px;
-    margin-bottom: -2px;
-    height: 30px;
+    margin-bottom: 0;
+    height: 31px;
     background: transparent;
 }
 
@@ -122,7 +122,7 @@ header {
     margin: auto;
     width: 1066px;
     padding: 0 10px 0;
-    height: calc(120vh + 35px);
+    height: calc(150vh + 35px);
     background-color: hsla(0, 0%, 93.3%, .6);
 }
 
