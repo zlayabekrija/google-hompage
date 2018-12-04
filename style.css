@@ -323,8 +323,11 @@ hr{
 }
 .post-comment{
     width: 95%;
-    opacity: .1;
+    opacity: .7;
     border-radius: 5px;
+    height: 33px;
+    outline: 0;
+    border: 0;
 }
 .post-comment::placeholder{
     opacity: .9 !important;
