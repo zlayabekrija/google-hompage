@@ -1,6 +1,6 @@
 ## YouTube Clone
 
-This project is the collaboration of [Zlatan](https://github.com/zlayabekrija)  & [Inzi](https://github.com/inhaq). [Preview this Project](https://zlayabekrija.github.io/google-hompage/)
+This project is the collaboration of [Zlatan](https://github.com/zlayabekrija)  & [Inzi](https://github.com/inhaq). [Preview this Project](https://zlayabekrija.github.io/youtube-clone/)
 
 To enhance and practice our HTML5/CSS3 knowledge, we tried to clone design of YouTube Player. In the process we learn about pair programming(collaboration), Version control system(Git & Github).
 
