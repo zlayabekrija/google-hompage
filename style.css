@@ -21,7 +21,7 @@ header {
 
 .aside {
     width: 37%;
-    height: 100vh;
+    height: 120vh;
     background-color: #fff;
     float: right;
     z-index: 2;
@@ -110,7 +110,7 @@ header {
 .search-btn {
     margin-left: -5px;
     margin-bottom: -2px;
-    padding: 5px;
+    height: 30px;
     background: transparent;
 }
 
@@ -122,7 +122,7 @@ header {
     margin: auto;
     width: 1066px;
     padding: 0 10px 0;
-    height: 250vh;
+    height: calc(120vh + 35px);
     background-color: hsla(0, 0%, 93.3%, .6);
 }
 
@@ -196,18 +196,12 @@ header {
 .fa-toggle-off {
     font-size: 1.4em;
 }
- .title{
-    display: block;
-    max-height: 4.8rem;
-    overflow: hidden;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-}
-.views{
+
+.views {
     height: 40px;
 }
-.count{
+
+.count {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
@@ -215,30 +209,38 @@ header {
     opacity: .6;
 }
 
-.thumbsdown,.thumbsup,.share,.save,.more{
+.thumbsdown,
+.thumbsup,
+.share,
+.save,
+.more {
     font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: .007px;
     text-transform: uppercase;
     opacity: .6;
 }
-.likes{
+
+.likes {
     float: right;
     padding-top: 6px;
-} 
-.user{
+}
+
+.user {
     float: left;
     height: 50px;
     width: 250px;
     opacity: .6;
 }
-.sub-button{
+
+.sub-button {
     float: right;
     padding: 10px 20px 0 0;
 }
-.sub-btn{
+
+.sub-btn {
     background-color: #ff0000;
-    border-radius:5px;
+    border-radius: 5px;
     width: 141px;
     height: 36px;
     color: #FFFFFF;
@@ -248,47 +250,56 @@ header {
     letter-spacing: .007px;
     text-transform: uppercase;
     float: right;
-    
+
 }
-.avatar{
+
+.avatar {
     font-size: 3em;
     float: left;
 }
-.link{
+
+.link {
     float: left;
     display: flex;
 }
-.subscribe{
-    height: 150px;
+
+.subscribe {
+    height: 80px;
 }
-.description{
+
+.description {
     position: relative;
     text-align: left;
-    height:150px;
-    font-size: 1.3rem;
+    height: 115px;
     font-weight: 400;
     line-height: 2.1rem;
     padding-left: 50px;
 }
-a:link,a:visited {
+
+a:link,
+a:visited {
     text-decoration: none;
     color: #777;
     opacity: .7;
     font-size: 1em;
 }
-.show{
+
+.show {
     position: absolute;
     bottom: 0;
 }
-hr{
+
+hr {
     height: 1%;
     opacity: .3;
 }
-.comments{
+
+.comments {
     height: 40px;
     width: 640px;
 }
-.comment{
+
+.comment {
     display: block;
     max-height: 4.8rem;
     overflow: hidden;
@@ -299,29 +310,34 @@ hr{
     float: left;
 }
 
-.sort{
+.sort {
     float: right;
     height: 20px;
     width: 50%;
     padding-top: 7px;
 }
-.user-comment{
+
+.user-comment {
     width: 640px;
 }
-.comment-avatar{
+
+.comment-avatar {
     width: 120px;
     float: left;
     padding-left: 20px;
 }
-.add-comment{
+
+.add-comment {
     width: 500px;
     float: right;
 }
-.line{
+
+.line {
     width: 500px;
     float: right;
 }
-.post-comment{
+
+.post-comment {
     width: 95%;
     opacity: .7;
     border-radius: 5px;
@@ -329,6 +345,20 @@ hr{
     outline: 0;
     border: 0;
 }
-.post-comment::placeholder{
+
+.post-comment::placeholder {
     opacity: .9 !important;
+}
+
+.fa-sort-amount-down,
+.fa-thumbs-up,
+.fa-thumbs-down,
+.fa-share,
+.fa-bookmark {
+    padding-right: 0;
+}
+
+.title-video {
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
